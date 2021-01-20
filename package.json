@@ -1,0 +1,20 @@
+{
+  "name": "webhooksha256",
+  "version": "1.0.0",
+  "description": "A expressjs middleware for handling Github webhook using X-Hub-Signature-256 header",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsq/webhooksha256.git"
+  },
+  "keywords": ["github-webhook", "sha256"],
+  "author": "tsq<tangshiqiangcn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsq/webhooksha256/issues"
+  },
+  "homepage": "https://github.com/tsq/webhooksha256#readme"
+}
