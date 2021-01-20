@@ -1,7 +1,7 @@
 const crypto = require("crypto");
 const sigHeaderName = "x-hub-signature-256";
 
-module.export = (secret) => (req, res, next) => {
+module.exports = (secret) => (req, res, next) => {
     const signature = req.headers[sigHeaderName];
     const payload = req.body;
     const hash = crypto.createHmac("sha256", secret);

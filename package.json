@@ -1,6 +1,6 @@
 {
   "name": "webhooksha256",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A expressjs middleware for handling Github webhook using X-Hub-Signature-256 header",
   "main": "app.js",
   "scripts": {
